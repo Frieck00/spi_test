@@ -1,0 +1,99 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
+################################################################################
+
+C++M_SRCS := 
+CPP_SRCS := 
+S_UPPER_SRCS := 
+O_SRCS := 
+ELF_SRCS := 
+C_UPPER_SRCS := 
+CXX_SRCS := 
+CCM_SRCS := 
+C++_SRCS := 
+OBJ_SRCS := 
+S_SRCS := 
+CC_SRCS := 
+C_SRCS := 
+CXXM_SRCS := 
+CYCLO_FILES := 
+OBJDUMP_LIST := 
+CCM_DEPS := 
+C_UPPER_DEPS := 
+S_DEPS := 
+CXXM_DEPS := 
+C_DEPS := 
+CC_DEPS := 
+SIZE_OUTPUT := 
+C++_DEPS := 
+SU_FILES := 
+EXECUTABLES := 
+OBJS := 
+CXX_DEPS := 
+MAP_FILES := 
+S_UPPER_DEPS := 
+C++M_DEPS := 
+CPP_DEPS := 
+
+# Every subdirectory with source files must be described here
+SUBDIRS := \
+Core/Src \
+Core/Startup \
+Drivers/STM32G4xx_HAL_Driver/Src \
+Library/ArduinoCore-avr-master/bootloaders/atmega \
+Library/ArduinoCore-avr-master/bootloaders/atmega8 \
+Library/ArduinoCore-avr-master/bootloaders/bt \
+Library/ArduinoCore-avr-master/bootloaders/caterina \
+Library/ArduinoCore-avr-master/bootloaders/caterina-Arduino_Robot \
+Library/ArduinoCore-avr-master/bootloaders/caterina-LilyPadUSB \
+Library/ArduinoCore-avr-master/bootloaders/lilypad/src \
+Library/ArduinoCore-avr-master/bootloaders/optiboot \
+Library/ArduinoCore-avr-master/bootloaders/stk500v2 \
+Library/ArduinoCore-avr-master/cores/arduino \
+Library/ArduinoCore-avr-master/firmwares/atmegaxxu2/arduino-usbdfu \
+Library/ArduinoCore-avr-master/firmwares/atmegaxxu2/arduino-usbserial \
+Library/ArduinoCore-avr-master/firmwares/wifishield/binary \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/Release \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105 \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EBI/SMC \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/EIC \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PDCA \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/PM \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/RTC \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/TC \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/DRIVERS/USART \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/DELAY \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/core/ipv4 \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-1.3.2/src/netif \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/LWIP/lwip-port-1.3.2/HD/if/netif \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifiHD/src \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/Release \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/ARDUINO \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/BOARDS/EVK1105 \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/COMPONENTS/MEMORY/DATA_FLASH/AT45DBX \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/FLASHC \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/GPIO \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/PM \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/SPI \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/DRIVERS/USART \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/SERVICES/MEMORY/CTRL_ACCESS \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src/SOFTWARE_FRAMEWORK/UTILS/DEBUG \
+Library/ArduinoCore-avr-master/firmwares/wifishield/wifi_dnld/src \
+Library/ArduinoCore-avr-master/libraries/HID/src \
+Library/ArduinoCore-avr-master/libraries/SPI/src \
+Library/ArduinoCore-avr-master/libraries/SoftwareSerial/src \
+Library/ArduinoCore-avr-master/libraries/Wire/src \
+Library/ArduinoCore-avr-master/libraries/Wire/src/utility \
+Library/SPI-master \
+
